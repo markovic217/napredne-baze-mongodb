@@ -1,0 +1,35 @@
+.ModifyItemComponent {
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+.container {
+  border: 1px dashed blue;
+  width: 700px;
+  height: 250px;
+  z-index: 2;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.xBtn{
+  font-size: xx-large;
+  color:red;
+  position:absolute;
+  top:0px;
+  right:0px;
+  width:40px;
+  height:40px;
+  cursor:pointer;
+  user-select: none;
+}

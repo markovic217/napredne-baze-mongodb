@@ -1,0 +1,10 @@
+.ListItemComponent {
+  text-align: left;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.CompletedStyle {
+  text-decoration: line-through;
+  color: green;
+}
